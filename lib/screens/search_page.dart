@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:peilabs_project/core/const.dart';
 import 'package:peilabs_project/core/models/product.dart';
 
 // ignore: must_be_immutable
@@ -104,7 +105,7 @@ class _SearchPageState extends State<SearchPage> {
                             ),
                           ),
                           SizedBox(
-                            width: 20,
+                            width: maxSize,
                           ),
                           Text(tempList[index].name,
                               style: Theme.of(context).textTheme.headline6)
